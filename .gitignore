@@ -148,7 +148,7 @@ activemq-data/
 *.sage.py
 
 # Environments
-.artifacts/
+
 .env
 .envrc
 .venv
@@ -168,6 +168,8 @@ venv.bak/
 # mkdocs documentation
 /site
 
+
+artifacts/
 # mypy
 .mypy_cache/
 .dmypy.json
