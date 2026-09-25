@@ -168,6 +168,7 @@ venv.bak/
 # mkdocs documentation
 /site
 
+catboost_info/
 
 artifacts/
 # mypy
