@@ -1,0 +1,17 @@
+{
+  "AWSEBDockerrunVersion": 2,
+  "containerDefinitions": [
+    {
+      "name": "student-mark-prediction",
+      "image": "289127796912.dkr.ecr.us-east-1.amazonaws.com/simple-docker-service-0e2adc815919:latest",
+      "essential": true,
+      "memory": 512,
+      "portMappings": [
+        {
+          "hostPort": 5000,
+          "containerPort": 5000
+        }
+      ]
+    }
+  ]
+}
