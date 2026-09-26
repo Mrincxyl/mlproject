@@ -1,17 +1,12 @@
 {
-  "AWSEBDockerrunVersion": 2,
-  "containerDefinitions": [
+  "AWSEBDockerrunVersion": 1,
+  "Image": {
+    "Name": "289127796912.dkr.ecr.us-east-1.amazonaws.com/simple-docker-service-0e2adc815919:latest",
+    "Update": "true"
+  },
+  "Ports": [
     {
-      "name": "student-mark-prediction",
-      "image": "289127796912.dkr.ecr.us-east-1.amazonaws.com/simple-docker-service-0e2adc815919:latest",
-      "essential": true,
-      "memory": 512,
-      "portMappings": [
-        {
-          "hostPort": 5000,
-          "containerPort": 5000
-        }
-      ]
+      "ContainerPort": 5000
     }
   ]
 }
