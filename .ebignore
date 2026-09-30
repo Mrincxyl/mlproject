@@ -1,0 +1,7 @@
+.vscode/
+notebook/
+.git/
+__pycache__/
+*.ipynb
+*.pyc
+.env

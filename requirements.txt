@@ -1,12 +1,10 @@
+﻿Flask==3.0.3
+gunicorn
+catboost
+scikit-learn==1.5.1
 pandas
 numpy
-seaborn
+joblib
 matplotlib
-scikit-learn
-catboost
-xgboost
+seaborn
 dill
-Flask
-Jinja2
-MarkupSafe
-#-e .
